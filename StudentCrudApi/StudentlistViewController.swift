@@ -71,7 +71,7 @@ class StudentlistViewController: UIViewController,UITableViewDelegate,UITableVie
          
         let headers: HTTPHeaders = [.authorization(bearerToken: mytoken)]
 
-        let url = "https://akashsir.in/myapi/student/api/student-list-api.php"
+        let url = "https://jigar.in/myapi/student/api/student-list-api.php"
         AF.request(url, method: .get,headers: headers).responseJSON{(response)in
             switch response.result{
             case .success:

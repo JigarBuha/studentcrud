@@ -80,7 +80,7 @@ class StudentaddViewController: UIViewController {
     }
     
     func API_StudentAdd(){
-        let url = "https://akashsir.in/myapi/student/api/student-add-api.php"
+        let url = "https://jigar.in/myapi/student/api/student-add-api.php"
         let param:Parameters = ["st_name":Txtstudentname.text!,
                                 "st_gender":Txtstudentgender.text!,
                                 "st_email":Txtstudentemail.text!,

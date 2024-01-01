@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
 
     func API_StudentLogin(){
-        let url = "https://akashsir.in/myapi/student/api/student-login-api.php"
+        let url = "https://jigar.in/myapi/student/api/student-login-api.php"
         let param:Parameters = ["st_email":Txtstudentemail.text!,
                                 "st_password":Txtstudentpassword.text!]
         AF.request(url, method: .post, parameters: param).responseJSON{

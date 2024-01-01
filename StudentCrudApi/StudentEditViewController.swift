@@ -26,7 +26,7 @@ class StudentEditViewController: UIViewController {
     }
     
     func API_StudentEdit(){
-        let url = "https://akashsir.in/myapi/student/api/student-edit-api.php"
+        let url = "https://jigar.in/myapi/student/api/student-edit-api.php"
         let param:Parameters = ["st_id":Txtstid.text!,
                                 "st_name":Txtstname.text!,
                                 "st_gender":Txtstgender.text!,
